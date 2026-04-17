@@ -1,0 +1,100 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile1",
+      "description": "A person smiling",
+      "imageUrl": "https://picsum.photos/seed/profile1/200/200",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "profile2",
+      "description": "A person working out",
+      "imageUrl": "https://picsum.photos/seed/profile2/200/200",
+      "imageHint": "person workout"
+    },
+    {
+      "id": "profile3",
+      "description": "A person outdoors",
+      "imageUrl": "https://picsum.photos/seed/profile3/200/200",
+      "imageHint": "person nature"
+    },
+    {
+      "id": "profile4",
+      "description": "A city skyline",
+      "imageUrl": "https://picsum.photos/seed/profile4/200/200",
+      "imageHint": "city skyline"
+    },
+    {
+      "id": "profile5",
+      "description": "Abstract art",
+      "imageUrl": "https://picsum.photos/seed/profile5/200/200",
+      "imageHint": "abstract art"
+    },
+    {
+      "id": "profile6",
+      "description": "A person running",
+      "imageUrl": "https://picsum.photos/seed/profile6/200/200",
+      "imageHint": "person running"
+    },
+    {
+      "id": "video_poster_1",
+      "description": "Man lifting weights",
+      "imageUrl": "https://picsum.photos/seed/poster1/540/960",
+      "imageHint": "gym weights"
+    },
+    {
+      "id": "video_poster_2",
+      "description": "Woman doing yoga",
+      "imageUrl": "https://picsum.photos/seed/poster2/540/960",
+      "imageHint": "yoga pose"
+    },
+    {
+      "id": "video_poster_3",
+      "description": "Runner on a trail",
+      "imageUrl": "https://picsum.photos/seed/poster3/540/960",
+      "imageHint": "trail running"
+    },
+    {
+      "id": "video_poster_4",
+      "description": "Crossfit session",
+      "imageUrl": "https://picsum.photos/seed/poster4/540/960",
+      "imageHint": "crossfit gym"
+    },
+    {
+      "id": "video_poster_5",
+      "description": "Healthy meal prep",
+      "imageUrl": "https://picsum.photos/seed/poster5/540/960",
+      "imageHint": "healthy food"
+    },
+    {
+      "id": "video_poster_6",
+      "description": "Person stretching",
+      "imageUrl": "https://picsum.photos/seed/poster6/540/960",
+      "imageHint": "stretching fitness"
+    },
+    {
+      "id": "video_poster_7",
+      "description": "Person meditating",
+      "imageUrl": "https://picsum.photos/seed/poster7/540/960",
+      "imageHint": "meditation peace"
+    },
+    {
+      "id": "video_poster_8",
+      "description": "Rock climbing",
+      "imageUrl": "https://picsum.photos/seed/poster8/540/960",
+      "imageHint": "rock climbing"
+    },
+    {
+      "id": "video_poster_9",
+      "description": "Man doing pushups",
+      "imageUrl": "https://picsum.photos/seed/poster9/540/960",
+      "imageHint": "pushups fitness"
+    },
+    {
+      "id": "video_poster_10",
+      "description": "Person swimming",
+      "imageUrl": "https://picsum.photos/seed/poster10/540/960",
+      "imageHint": "swimming fitness"
+    }
+  ]
+}
