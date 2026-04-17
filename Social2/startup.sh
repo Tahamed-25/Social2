@@ -1,6 +1,3 @@
 #!/bin/bash
 cd /home/site/wwwroot
-echo "=== Contents of wwwroot ==="
-ls -la
-echo "=== Does node_modules exist? ==="
-ls node_modules | head -20
+node_modules/.bin/next start -p 8080
