@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -17,6 +17,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      - name: Install and build
+        working-directory: ./Social2
+        run: |
+          npm install
+          npm run build
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -26,7 +37,6 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FBF327F3177F49E89FD6B4CCDD78AAFA }}
 
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'Social-fit2'
