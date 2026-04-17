@@ -1,3 +1,6 @@
 #!/bin/bash
 cd /home/site/wwwroot
-node_modules/.bin/next start -p 8080
+echo "=== Contents of wwwroot ==="
+ls -la
+echo "=== Does node_modules exist? ==="
+ls node_modules | head -20
